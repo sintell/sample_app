@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 SampleApp::Application.routes.draw do
+=======
+Myapp::Application.routes.draw do
+>>>>>>> 47fe1c8c0f61cd6f0ad2fd304b96fb2bc25c94e7
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
