@@ -18,8 +18,8 @@ development:
   encoding: unicode
   database: sample_app_development
   pool: 5
-  username: sample_app
-  password:
+  username: sintell
+  password: aSddoT
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -57,14 +57,15 @@ test:
   encoding: unicode
   database: sample_app_test
   pool: 5
-  username: sample_app
-  password:
+  username: sintell
+  password: aSddoT
 
 production:
   adapter: postgresql
   encoding: unicode
   database: sample_app_production
   pool: 5
+<<<<<<< HEAD
   username: sample_app
   password:
 =======
@@ -79,3 +80,7 @@ production:
   pool: 5
   timeout: 5000
 >>>>>>> 47fe1c8c0f61cd6f0ad2fd304b96fb2bc25c94e7
+=======
+  username: sintell
+  password: aSddoT
+>>>>>>> static-pages
